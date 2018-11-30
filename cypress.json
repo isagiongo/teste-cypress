@@ -1,4 +1,4 @@
 {
-  "screenshotOnHeadlessFailure": false,
+  "screenshotOnHeadlessFailure": true,
   "videoRecording": false 
 }

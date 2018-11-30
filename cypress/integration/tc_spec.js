@@ -53,12 +53,12 @@ describe('Training Center - Site', () => {
     })
   })
 
-  describe('Apoie', () => {
-    it('should ensure that the Apoie item is linked with the correctly url', () => {
-      cy.get('.nav-menu__list > li:nth-child(1) > a')
-        .should('have.attr', 'href').and('include', 'https://apoia.se/training-center')
-    })
-  })
+  // describe('Apoie', () => {
+  //   it('should ensure that the Apoie item is linked with the correctly url', () => {
+  //     cy.get('.nav-menu__list > li:nth-child(1) > a')
+  //       .should('have.attr', 'href').and('include', 'https://apoia.se/training-center')
+  //   })
+  // })
 })
 
 
